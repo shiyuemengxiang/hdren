@@ -1,0 +1,191 @@
+/*css样式文件*/
+*{
+	padding: 0;
+	margin: 0;
+}
+/*公共样式*/
+h2,h3{
+	margin:35px 0;
+}
+p{
+	color:rgb(119, 119, 119)!important;
+}
+a:hover{
+	text-decoration: none;
+}
+.thumbnail{
+	/*解决列表块中浮动不占位*/
+	overflow: hidden;
+}
+/*列表框内的图片相应问题,解决浮动空白高度不齐*/
+.thumbnail .img{
+	width: 100%;
+	overflow: hidden;
+	height:150px;
+}
+.thumbnail .img img{
+	min-width:100%;
+	max-width:100%;
+	height: 100%;
+}
+/*列表块内的标题溢出省略*/
+.container .row .thumbnail h4{
+	width:100%;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: rgb(90, 93, 90);
+}
+.container .row .thumbnail img{
+	min-width: 100%;
+	/*height:100%;*/
+}
+/*公共样式结束*/
+/*导航*/
+.navbar{
+	margin-bottom: 0;
+}
+/*logo部分*/
+.navbar-brand{
+		padding: 0;
+}
+.navbar .navbar-brand img{
+	width:150px;
+	display: block;
+	vertical-align: middle;
+	line-height: 50px;
+	margin-top:0;
+
+}
+/*巨幕部分*/
+.box{
+	background-color: rgb(86, 61, 124);
+	overflow: hidden;
+}
+.box .con{
+	margin:80px;
+	color: #fff;
+}
+.box .con p{
+	line-height: 35px;
+}
+.box .con a {
+	margin-top:40px;
+}
+
+/*列表页面*/
+.row .item{
+	background: #fff;
+    padding: 30px 20px 20px;
+    text-align: center;
+    box-shadow: 0 1px 20px 0 rgba(175, 176, 176, 0.3);
+}
+.row .item i{
+	color:rgb(41, 134, 206);
+	font-size:5em;
+}
+/*内容区域*/
+section{
+	background:rgb(250, 250, 250);
+}
+section>div:not(last-child){
+	border-bottom:1px solid rgb(221, 221, 221) ;
+} 
+/*开发大牛*/
+.bigNiu .container{
+	margin:40px auto;
+}
+/*课程学习*/
+.lesson  .container .row .thumbnail{
+	overflow: hidden;
+	/*解决浮动带来文档流脱离问题*/
+}
+/*全程实战*/
+.combat .container .col-sm-6{
+	margin:40px 0;
+}
+.day .container{
+	margin:40px auto;
+}
+/*底部*/
+footer{
+	background-color:rgb(44, 48, 59);
+	padding:40px 0;
+}
+footer h4{
+	color:rgb(250,250,250);
+}
+footer .item ul li a{
+	color:#aaa;
+} 
+footer .item img{
+	width:160px;
+	display: block;
+}
+/*lesson文件*/
+ /*导航下面标签导航*/
+.tabs{
+	border-bottom:1px solid #ddd ;
+}
+.tabs ul{
+	margin:35px;
+	
+}
+.tabs ul li a{
+	border-right: 1px solid #ddd;
+	border-top:1px solid #ddd ;
+}
+.tabs ul li:first-child a{
+	border-radius:0;
+	border-left:1px solid #ddd;
+}
+.tab-content{
+	/*列表区域的外边距*/
+	margin:40px 0;
+}
+/*hdlive的css文件*/
+.hdad{
+	height:auto;
+	overflow: hidden;
+	background-color: rgb(49, 56, 70);
+}
+.hdad img{
+	max-width: 100%;
+	max-height:150px;
+}
+/*后盾人讨论页面样式comment*/
+.hdtop{
+	height:120px;
+	overflow: hidden;
+	background-color: rgb(49, 56, 70);
+	padding:25px 0;
+	
+}
+.hdtop .fa{
+	color:rgba(255,255,255,0.9)
+}
+		/*字体样式*/
+			.fz{
+				font-size:30px;
+				font-weight:300;
+				color:#fff;
+			}
+			
+		section .container .row{
+				margin:40px 0;
+			}
+			.row ul li{
+				margin-top:12px;
+			}
+			.row .list-unstyled li a{
+				color: #666;
+			}
+			.row .media img{
+				width:50px;
+				height:50px;
+				padding: 3px;
+				border:1px solid #ddd;
+			}
+			h4{
+				color:rgb(35, 82, 124);
+			}
